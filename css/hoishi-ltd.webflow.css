@@ -3239,10 +3239,10 @@ blockquote {
   }
 
   .footer-grid {
-    grid-column-gap: 4rem;
-    grid-row-gap: 4rem;
-    grid-template-columns: 1fr 1fr;
-  }
+    grid-template-columns: 1fr; /* Stack all divs in one column for mobile */
+    grid-row-gap: 2rem; /* Adjust spacing for mobile */
+    grid-column-gap: 0; /* No column gap on mobile */
+}
 
   .footer-component {
     padding-top: 4rem;
@@ -3603,12 +3603,10 @@ blockquote {
   }
 
   .footer-grid {
-    grid-column-gap: 3rem;
-    grid-row-gap: 2rem;
-    grid-auto-columns: 1fr;
-    justify-content: flex-end;
-    place-items: flex-start center;
-  }
+    grid-template-columns: 1fr; /* Stack all divs in one column for mobile */
+    grid-row-gap: 2rem; /* Adjust spacing for mobile */
+    grid-column-gap: 0; /* No column gap on mobile */
+}
 
   .footer-links {
     flex-flow: wrap;
