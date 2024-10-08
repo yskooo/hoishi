@@ -3357,6 +3357,7 @@ blockquote {
   .navbar-component {
     padding-top: .3rem;
     padding-bottom: .3rem;
+    justify-content: flex-start; 
   }
 
   .mobile-navbar-content {
@@ -3722,6 +3723,7 @@ blockquote {
   .navbar-component {
     padding-top: .2rem;
     padding-bottom: .2rem;
+    justify-content: flex-start; 
   }
 
   .nav-menu {
