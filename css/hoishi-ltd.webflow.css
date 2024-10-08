@@ -1920,7 +1920,7 @@ blockquote {
 .brand {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 2.5rem;
   display: flex;
@@ -3349,7 +3349,7 @@ blockquote {
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     display: grid;
   }
@@ -3715,7 +3715,7 @@ blockquote {
     object-fit: fill;
     flex-flow: row;
     flex: none;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     display: flex;
   }
